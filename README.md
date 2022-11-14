@@ -1,8 +1,6 @@
 # Documentation: Data Visualization using Echart
 
-## [Live Demo ](https://echart-assignment.netlify.app/)
-
-![Echart](/echart-assignment/screenshots/full.png)
+![Echart](/echart-assignment/screenshots/full1.png)
 
 ## Clone
 
@@ -31,5 +29,5 @@ The page will reload when you make changes.\
 
 #
 
-![Bargraph](/echart-assignment/screenshots/bargraph.png)
-![Scattered Chart](/echart-assignment/screenshots/scatterd.png)
+![Bargraph](/echart-assignment/screenshots/bar.png)
+![Scattered Chart](/echart-assignment/screenshots/scatter.png)
