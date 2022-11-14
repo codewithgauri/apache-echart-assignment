@@ -7,7 +7,7 @@ let hueArray = data.map((i) => i["Hue"]);
 
 const style = {
   height: "50vh",
-  width: "75%",
+  width: "50%",
 };
 
 let scatterGraph = {
