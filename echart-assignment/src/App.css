@@ -1,0 +1,21 @@
+.container {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 100%;
+  height: 60%;
+
+  /* Setup */
+  position: relative;
+}
+
+.child {
+  width: 100%;
+  height: 30%;
+  background-color: red;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

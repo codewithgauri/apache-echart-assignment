@@ -40,8 +40,26 @@ const style = {
 };
 
 let barGraph = {
+  color: ["#3398DB"],
+  grid: {
+    x: 5,
+    x2: 150,
+    y: 35,
+    y2: 45,
+  },
+  tooltip: {
+    trigger: "axis",
+    axisPointer: {
+      type: "shadow",
+    },
+  },
+  textStyle: {
+    fontSize: 20,
+  },
   xAxis: {
     name: "Alcohol",
+    left: "center",
+    top: "center",
     type: "category",
     data: AlcoholType,
   },
