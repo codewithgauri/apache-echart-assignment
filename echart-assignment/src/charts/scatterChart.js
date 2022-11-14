@@ -7,16 +7,16 @@ let hueArray = data.map((i) => i["Hue"]);
 
 const style = {
   height: "50vh",
-  width: "50%",
+  width: "90%",
 };
 
 let scatterGraph = {
   color: ["#3398DB"],
   grid: {
-    x: 5,
-    x2: 150,
-    y: 35,
-    y2: 45,
+    x: 50,
+    x2: 140,
+    y: 90,
+    y2: 50,
   },
   tooltip: {
     trigger: "axis",
@@ -25,7 +25,7 @@ let scatterGraph = {
     },
   },
   textStyle: {
-    fontSize: 20,
+    fontSize: 15,
   },
   xAxis: {
     name: "Color intensity",
