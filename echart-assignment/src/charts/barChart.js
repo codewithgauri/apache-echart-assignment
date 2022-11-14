@@ -65,7 +65,7 @@ let barGraph = {
   },
   yAxis: {
     type: "value",
-    name: "Mallic",
+    name: "Mallic Acid",
   },
   series: [
     {
